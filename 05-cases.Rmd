@@ -1,0 +1,33 @@
+# Case studies
+
+## How to deal with camera trap data?
+
+Camera traps are important and widely used tools in ecological studies, especially for animal monitoring. After setting camera traps and retrieving data occasionally from hard field work, you should carefully manage all your pictures and videos.
+
+### Always back up first
+
+Just recall how much effort you took to retrieve the SD card!!!
+
+Don't be lazy after whole-day field work, back up your data as long as you get access to a laptop and a portable hard disk. Here is the procedure I usually follow for data back-up:
+
+1.  Copy entire folder with all pictures/videos to your specific folder.
+2.  Repeat the first step.
+3.  The above two copied folders should be in **different physical spaces**, e.g. One in your laptop, and another in your colleague's portable hard disk.
+4.  Double-check you've copied all your pictures/videos in SD card to above 2 places.
+5.  Format SD card and reuse it in other cameras.
+
+### Rename the folder containing pictures with proper name
+
+Now, the copied folders may have a name of "100PKU01" or something like this. You may keep the folders' name, as it can be distinguished from each other easily. But, if you are planning to retrieve data regularly, you may want to put them in different directories with names of "PKUCamera-20220730" and "PKUCamera-20220930", to distinguish different survey occasions.
+
+Also, the folder name "100PKU01" would be better in "PKU01", clear and short enough for further coding.
+
+### Add Tags to pictures/videos using digiKam
+
+A widely used software for photo tagging and management is [digiKam](https://www.digikam.org), and its database file can be accessed by [camtrapR package](https://jniedballa.github.io/camtrapR/) to extract video metadata.
+
+### Extract picture info from metadata, and video info from digiKam database
+
+### Mark independent detections
+
+### Carefully go through your results, and export it to .csv file
